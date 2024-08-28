@@ -3,19 +3,24 @@
 
 }
 
-#nameandjobandpic {
+body{
     width: 500px;
+    height: 738.24px;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+#nameandjobandpic {
+    width: 498px;
     height: 138.24px;
-    max-height: 1403.2px;
-    max-width: 992px;
     background-color: cadetblue;
     color: white;
+    margin-top: -16px;
 }
 #name {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     float: right;
-    padding-right: 20px;
+    padding-right: 30px;
     font-weight: bold;
 }
 #job {
@@ -35,6 +40,13 @@
     border-radius: 10px;
 }
 
+#profileandcontact {
+    width: 200px;
+    height: 598px;
+    background-color: rgb(200, 200, 200);
+    margin-top: -16px;
+}
+
 .Heading1 {
     padding-top: 25px;
     padding-left: 60px;
@@ -42,8 +54,8 @@
     font-size: 12px;
 }
 .Body1 {
-    width: 120px;
-    margin-left: 60px;
+    width: 130px;
+    margin-left: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 11px;
     line-height: 15px;
